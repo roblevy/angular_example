@@ -12,7 +12,7 @@ import PicsIndexCtrl from './controllers/pics/index';
 import PicsNewCtrl from './controllers/pics/new';
 import PicsShowCtrl from './controllers/pics/show';
 import UsersShowCtrl from './controllers/users/show';
-import CommentsIndexCtrl from './controllers/comments/index';
+// import CommentsIndexCtrl from './controllers/comments/index';
 
 // Services
 import Pic from './services/pic';
@@ -27,6 +27,6 @@ angular.module('picz', ['ui.router'])
   .controller('PicsNewCtrl', PicsNewCtrl)
   .controller('PicsShowCtrl', PicsShowCtrl)
   .controller('UsersShowCtrl', UsersShowCtrl)
-  .controller('CommentsIndexCtrl', CommentsIndexCtrl)
+  // .controller('CommentsIndexCtrl', CommentsIndexCtrl)
   .service('Pic', Pic)
   .service('Comment', Comment);
