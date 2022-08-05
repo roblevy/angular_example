@@ -18,7 +18,7 @@
     "bulma": "^0.7.1",
     "express-session": "^1.15.6",
     "jsonwebtoken": "^8.2.2",
-    "mongoose": "^5.1.4",
+    "mongoose": "^5.7.5",
     "nyc": "^14.1.1",
     "request": "^2.87.0",
     "request-promise": "^4.2.2"
